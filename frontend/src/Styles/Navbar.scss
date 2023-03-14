@@ -1,0 +1,25 @@
+.navbar-container {
+    width: 100vw;
+    height: 13vh;
+    background-color: #e4f8fd;
+    .login-button {
+        border: none;
+        background: none;
+        margin-right: 1.5rem;
+    }
+    
+    .signup-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 10px;
+        width: 123px;
+        height: 54px;
+        border-radius: 44px;
+        background-color: rgba(5, 100, 153, 0.8);
+        color: white;
+        border: 1px solid black;
+    }
+}
