@@ -1,0 +1,89 @@
+.trip-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .trip-planner {
+        padding: 20px;
+        width: 1400px;
+        display: flex;
+        // background-color: aqua;
+        flex-direction: column;
+        border-radius: 10px;
+        border: 1px solid lightgrey;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        h6 {
+            margin-left: 1rem;
+        }
+
+        .selectors {
+            display: flex;
+            // justify-content: space-around;
+
+            .inputContainer {
+                position: relative;
+                padding: 20px;
+
+                label {
+                    position: absolute;
+                    text-align: center;
+                    top: 0;
+                    font-size: small;
+                }
+
+                .selectBox {
+                    height: 40px;
+                    border-radius: 5px;
+                    padding: 6px;
+                }
+
+                #from,
+                #depart,
+                #classs {
+                    width: 322px;
+                }
+
+                #tripId {
+                    width: 200px;
+                }
+
+            }
+        }
+
+        .promo {
+            display: flex;
+            justify-content: flex-end;
+
+            .promoButton {
+                margin-right: 3rem;
+
+                span {
+                    font-size: 14px;
+                }
+            }
+
+            .add-promo {
+                border: none;
+                background: none;
+            }
+
+            .show-flight {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 16px;
+                gap: 4px;
+                color: white;
+                width: 144px;
+                height: 48px;
+                background: #3282AD;
+                border-radius: 4px;
+                border: none;
+            }
+        }
+    }
+
+}

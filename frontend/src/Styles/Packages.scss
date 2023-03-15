@@ -1,0 +1,30 @@
+.packages{
+    margin-top: 5rem;
+    .spots-menu{
+        width: 1400px;
+        height: 78px;
+        .menuButton{
+            width: 280px;
+            background: none;
+            color: #3282AD;
+            font-weight: bold;
+            border: 0.5px solid black;
+        }
+        .active{
+            background-color: #3282AD !important;
+            color: white !important;
+            border: 2px solid black !important;
+
+        }
+    }
+
+    .pictorial-description{
+        background-color: aqua;
+        margin-top: 5em;
+        width: 1400px;
+
+        .carousel-items {
+            display: flex;
+        }
+    }
+}
