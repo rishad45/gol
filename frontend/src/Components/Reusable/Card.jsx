@@ -3,7 +3,7 @@ import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import StarIcon from '@mui/icons-material/Star';
 import { fontSize } from '@mui/system';
-const Card = ({ isprice = false, src, place, rating, desc }) => {
+const Card = ({ isprice = false, src, place, rating, desc, buttonText }) => {
     return (
         <div className='card-component'>
             <div className="card-image">
@@ -19,7 +19,7 @@ const Card = ({ isprice = false, src, place, rating, desc }) => {
                 </div>
                 <p className='desc'>{desc}</p>
                 <div className="book-button">
-                    <button className='book-now'>Book Now</button>
+                    <button className='book-now'>{buttonText}</button>
                 </div>
             </div>
         </div>

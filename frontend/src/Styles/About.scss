@@ -1,0 +1,89 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    margin-top: 5em;
+    margin-bottom: 2em;
+
+    h4 {
+        text-align: center;
+    }
+
+    .card-wrapper {
+        margin-top: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .opinions {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+
+            .single-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                width: 260px;
+                height: 300px;
+                border-radius: 8px;
+                padding: 5px;
+                border: 0.1px solid lightgrey;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+
+                    img {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    .name {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+
+                    .place {
+                        font-size: 13px;
+                    }
+                }
+
+                .comment {
+                    margin-top: 2em;
+                    font-size: 15px;
+                    text-align: center;
+                }
+
+                .rating {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    button {
+        border: 1px solid black;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-top: 1em;
+    }
+    .active{
+        background-color: #3282AD;
+    }
+}
